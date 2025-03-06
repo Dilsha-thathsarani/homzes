@@ -16,8 +16,8 @@ class HomzesApp extends StatelessWidget {
                 Colors.black.withOpacity(0.7),
                 BlendMode.darken,
               ),
-              child: Image.asset(
-                'assets/images/house.png',
+              child: Image.network(
+                'https://res.cloudinary.com/dyffx8cs2/image/upload/v1741232965/house_image_1_afc4v9.png',
                 fit: BoxFit.cover,
               ),
             ),
@@ -188,7 +188,7 @@ class HomzesApp extends StatelessWidget {
                 color: Colors.white,
                 shape: BoxShape.circle,
               ),
-              child: Icon(icon, size: 25),
+              child: Icon(icon, size: 30),
             ),
           ),
           // Text at the bottom-left

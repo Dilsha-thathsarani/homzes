@@ -121,7 +121,7 @@ class PropertyListingScreen extends StatelessWidget {
                               final imageUrl = property['image'];
                               final location = property['location'];
                               final beds = property['no_of_beds'];
-                              final bathrooms = property['no_of_barthrooms'];
+                              final bathrooms = property['no_of_bathrooms'];
                               final price = property['price'];
                               final title = property['title'];
 
